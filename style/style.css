@@ -60,18 +60,64 @@ h1.heading {
     color: rgba(255, 255, 255, 0.815);
 }
 
+div#grid-control {
+    width: auto;
+    margin: 3px auto;
+    display: block;
+    text-align: center;
+}
+
 button.clear-grid {
     padding: 5px;
-    margin: 0 auto;
+    margin: 5px auto;
     text-align: center;
-    display: block;
+    display: inline-block;
     border-radius: 5px;
 }
 
-input.color-slider {
+button.grid-layout {
+    padding: 5px;
+    margin: 5px auto;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+label.hue-label {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 17px;
+    display: block;
+}
+
+input.hue-slider {
+    display: inline-block;
+    margin: 4px auto;
+    width: 400px;
+}
+
+label.saturation-label {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 17px;
+    display: block;
+}
+
+input.saturation-slider {
     display: block;
     margin: 4px auto;
-    width: 500px;
+    width: 400px;
+}
+
+label.luminance-label {
+    color: rgba(255, 255, 255, 0.815);
+    font-size: 17px;
+    display: block; 
+}
+
+input.luminance-slider {
+    display: inline-block;
+    margin: 4px auto;
+    width: 400px;
 }
 
 div.color-display {
@@ -80,6 +126,15 @@ div.color-display {
     border: 1px solid white;
     width: 100px;
     height: 60px;
+}
+
+button.hide-controls {
+    padding: 5px;
+    margin: 5px auto;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
 }
 
 div.container {
@@ -98,5 +153,4 @@ div.container {
 div.grid-item {
     border: 1px solid rgba(0, 0, 0, 0.288);
     border-collapse: collapse;
-    text-align: center;
 }
