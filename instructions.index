@@ -1,6 +1,4 @@
-# Odin-Project: Etch-A-Sketch Project
-
-In this little project, I'm going to create something that should resemble a something like a sketchpad.
+Odin-Project: Etch-A-Sketch Project
 
 # How to Adjust the Colors and Basic Controls:
 
@@ -46,6 +44,3 @@ To quickly switch to a color which is already present in the sketchpad, hold dow
 colored square and the color control will switch to the color of the clicked on square.
 
 Have fun :)
-
-
-
